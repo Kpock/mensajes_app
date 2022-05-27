@@ -4,10 +4,8 @@
  * and open the template in the editor.
  */
 package com.brandon.mensajes_app;
-
 import java.sql.Connection;
 import java.util.Scanner;
-
 /**
  *
  * @author WPOSS
@@ -46,8 +44,6 @@ public class Inicio {
                     break;
                 case 5:
                     break;
-                    
-                
             }
             
         }while(opcion != 5);
