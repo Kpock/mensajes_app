@@ -17,8 +17,7 @@ public class Conexion {
     public Connection get_connection() {
         Connection conection = null;
         try {
-            conection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mensajes.app", "root", "");
-                            
+            conection = DriverManager.getConnection ("jdbc:mysql://localhost/mensajes_app","root", "");           
         } catch(SQLException e) {
             System.out.println(e);
         }
